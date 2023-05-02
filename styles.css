@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    text-decoration: underline;
+    color: blueviolet;
+}
+button{
+    margin: 1rem;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background: green;
+    font-weight: bolder;
+    cursor: pointer;
+}
+input{
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 110%;
+}
+span{
+    margin:2rem;
+    color: red;
+    font-size: xx-large;
+}
